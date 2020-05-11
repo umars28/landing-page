@@ -1,14 +1,18 @@
 a {
 	text-decoration: none;
+	font-family: sans-serif;
+	font-variant: small-caps;
+	font-style: normal;
 }
 header {
 	background-color: #A9BA9D;
-	position: fixed;
+	background-size: cover;
 	width: 100%;
 	left: 0px;
 	top: 0px;
 	height: 100px;
 	background-attachment: fixed;
+
 
 }
 
@@ -28,6 +32,8 @@ header {
 	display: block;
 	text-shadow: 5px 5px 5px grey;
 	text-transform: uppercase;
+	font-weight: bold;
+
 }
 
 .header-right a:hover {
@@ -52,13 +58,14 @@ body {
 }
 
 .main-content {
-	margin-top: ;
 	background-image: url("back.jpg");
 	padding: 95px 0 16px 47px;
 	background-size: cover;
 	height: 400px;
 	margin-right: 0;
 	text-align: center;
+	background-position: center;
+	background-attachment: scroll;
 }
 
 .main-content h1 {
@@ -69,4 +76,15 @@ body {
 .main-content p {
 	color: grey;
 	margin-top: 20px;
+}
+
+.services {
+	background-color: #3FBFB8;
+	padding: 95px 0 16px 0px;
+	background-size: cover;
+	height: 500px;
+}
+.services h1 {
+	text-align: center;
+	font-size: 40px;
 }
