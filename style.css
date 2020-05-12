@@ -1,3 +1,7 @@
+h1,p,h3 {
+	color: white;
+}
+
 a {
 	text-decoration: none;
 	font-family: sans-serif;
@@ -5,9 +9,10 @@ a {
 	font-style: normal;
 }
 header {
-	background-color: #A9BA9D;
+	background-color: rgba(0,0,0,0.2);
 	background-size: cover;
 	width: 100%;
+	position: fixed;
 	left: 0px;
 	top: 0px;
 	height: 100px;
@@ -26,7 +31,7 @@ header {
 }
 
 .header-right-list a {
-	color: black;
+	color: white;
 	padding-right: 40px;
 	line-height: 30px;
 	display: block;
@@ -39,7 +44,7 @@ header {
 .header-right a:hover {
 	padding: 10px;
 	background: rgba(255, 255, 255, 0.3);
-	color: white;
+	color: black;
 }
 
 .header-right a:active {
@@ -58,7 +63,7 @@ body {
 }
 
 .main-content {
-	background-image: url("back.jpg");
+	background-image: url("jumbotron-bg.jpg");
 	padding: 95px 0 16px 47px;
 	background-size: cover;
 	height: 400px;
@@ -70,21 +75,141 @@ body {
 
 .main-content h1 {
 	padding: 80px 30px;
-	color: grey;
+	color: white;
 	text-shadow: 5px 5px 5px black;
 }
-.main-content p {
-	color: grey;
-	margin-top: 20px;
-}
 
-.services {
-	background-color: #3FBFB8;
-	padding: 95px 0 16px 0px;
+.about {
+	background-image: url('bricks.jpg');
 	background-size: cover;
-	height: 500px;
+	padding: 95px 0 16px 0px;
+	background-attachment: scroll;
+	background-position: center;
+	background-size: cover;
+	height: 700px;
+	width: 100%;
 }
-.services h1 {
+.about h1 {
 	text-align: center;
 	font-size: 40px;
 }
+
+.about img {
+	margin-top: 0px;
+	float: right;
+	display: block;
+	margin-right: 40px;
+	height: 400px;
+	border: 3px solid blue;
+	opacity: 0.8;
+}
+
+.about h3 {
+	padding-top: 90px;
+	margin-left: 90px;
+	top: 150px;
+	font-weight: bold;
+	font-size: 27px;
+}
+
+.about p {
+	top: 190px;
+	margin-left: 80px;
+	word-spacing: 4px;
+	font-size: 20px;
+}
+
+.about h3,p {
+	width: 50%;
+	float: left;
+}
+
+.contactus {
+	background-image: url('imagesc.jpg');
+	background-repeat: no-repeat;
+	text-align: center;
+	background-attachment: scroll;
+	background-position: center;
+	background-size: cover;
+	height: 700px;
+	width: 100%;
+	font-size: 17px;
+}
+
+.contactus input, {
+	display: block;
+	padding-left: 200px;
+	padding-bottom: 20px;
+}
+
+.contact {
+	display: block;
+	top: 900px;
+	margin-left: 100px;
+	margin: 5px auto;
+	background-color: rgba(74, 147, 181); 
+	width: 500px;
+	height: 100px;
+	color: white;
+	padding-bottom: 30px;
+}
+
+.contactus button {
+	width: 200px;
+	color: red;
+	height: 100px;
+	box-shadow: black;
+}
+
+.contactus button:hover {
+	width: 300px;
+	color: black;
+	height: 100px;
+	box-shadow: blue;
+}
+
+footer {
+	background-color: rgba(23, 56, 71);
+	background-size: cover;
+	width: 100%;
+	left: 0px;
+	bottom: 0px;
+	height: 100px;
+
+
+}
+
+.footer-right li {
+	padding-bottom: 0px;
+}
+
+.footer-right-list li {
+	padding-right: 40px;
+	list-style: none;
+	float: right;
+}
+
+.footer-right-list a {
+	color: white;
+	padding-right: 40px;
+	line-height: 30px;
+	display: block;
+	text-shadow: 5px 5px 5px grey;
+	font-weight: bold;
+
+}
+
+.footer-right a:hover {
+	padding: 10px;
+	background: rgba(255, 255, 255, 0.3);
+	color: black;
+}
+
+.footer-right a:active {
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.3);
+	color: #8B0000;
+}
+
+
+
